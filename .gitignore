@@ -12,7 +12,8 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
+web/coverage
+hello-mobile/coverage
 
 # nyc test coverage
 .nyc_output
@@ -24,14 +25,18 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+web/build/Release
+hello-mobile/platform
 
 # Dependency directories
-node_modules
-jspm_packages
+web/node_modules
+web/jspm_packages
+hello-mobile/node_modules
 
 # Optional npm cache directory
-.npm
+web/.npm
+hello-mobile/.npm
 
 # Optional REPL history
 .node_repl_history
+.DS_STORE
