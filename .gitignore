@@ -39,4 +39,7 @@ hello-mobile/.npm
 
 # Optional REPL history
 .node_repl_history
+
+
 .DS_STORE
+web/dist
