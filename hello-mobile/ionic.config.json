@@ -2,10 +2,5 @@
   "name": "hello-mobile",
   "app_id": "",
   "v2": true,
-  "typescript": true,
-  "documentRoot": "../web/src",
-  "watchPatterns": [
-    "app/js/*",
-    "!app/css/**/*"
-  ]
+  "typescript": true
 }

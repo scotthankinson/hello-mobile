@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
- 
+
 import { AppComponent } from './app.component';
-import { HomePage } from '../pages/home.page';
+import { HomePageComponent } from '../pages/home.page';
 
 @NgModule({
   imports: [ IonicModule.forRoot(AppComponent) ],
-  declarations: [ AppComponent, HomePage ],
-  entryComponents: [ HomePage ],
+  declarations: [ AppComponent, HomePageComponent ],
+  entryComponents: [ HomePageComponent ],
   bootstrap: [ IonicApp ]
 })
 
